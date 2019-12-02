@@ -26,7 +26,7 @@ public class WordAdapter extends ArrayAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        WordsData wordsData = (WordsData) getItem(position); // 获取当前项的Fruit实例
+        WordsData wordsData = (WordsData) getItem(position); // 获取当前项的实例
         View view = LayoutInflater.from(getContext()).inflate(resourceId, null);//实例化一个对象
 
         TextView wordName = (TextView) view.findViewById(R.id.word_name);   //获取单词name
