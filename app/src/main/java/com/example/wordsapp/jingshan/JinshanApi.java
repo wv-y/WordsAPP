@@ -39,10 +39,9 @@ public class JinshanApi {
 
 
     /**
-     * 汉译英时使用，查词
-     * 使用Pull方式解析金山词霸返回的XML数据。
      *
-     * ====这里只解析了例句，其他相关释义由json数据解析完成====
+     * 使用Pull方式解析金山词霸返回的XML数据。
+     *这里只解析了例句
      *
      * */
     public static String JinshanXMLWithPull(String result) {
